@@ -24,5 +24,7 @@ public class Character {
     
   }
   
-  
+  public String GetType () {
+    return type;
+  }
 

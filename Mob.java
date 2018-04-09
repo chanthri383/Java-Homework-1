@@ -9,7 +9,7 @@ import "Npc.java";
     questMob = false;
   }
    
-  public(String type_, String name_, char gender_, int hitPoints_, String zone_,String classType_, boolean questMob_)
+  public Mob(String type_, String name_, char gender_, int hitPoints_, String zone_,String classType_, boolean questMob_)
   {
     super(type_,name_,gender_,hitPoints_,zone_,classType_,questMob_);
     classType = classType_;

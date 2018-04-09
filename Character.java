@@ -16,6 +16,10 @@ public class Character {
     gender = gender_;
     hitPoints = hitPoints_;
   }
+  public String toString();
+  {
+    String.format()
+  }
   
   
 

@@ -9,12 +9,12 @@ public class Character {
     gender = '\0';
     hitPoints = 0;
   }
-  public Character (String type1, String name1, char gender1, int pointHits)
+  public Character (String type_, String name_, char gender_, int hitPoints_)
   {
-    type = type1;
-    name = name1;
-    gender = gender1;
-    hitPoints = pointHits;
+    type = type_;
+    name = name_;
+    gender = gender_;
+    hitPoints = hitPoints_;
   }
   
   

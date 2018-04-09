@@ -13,6 +13,6 @@ public class Npc extends Character {
   public String toString()
   {
     System.out.print("Npc");
-    System.out.format("\n%15s%15s%15s%15s%25s\n", "Name","Gender","Hit Points", "Zone");
+    System.out.print(Super.toString() + System.out.format("\n%15s%15s%15s%15s%25s\n", "Name","Gender","Hit Points", "Zone"));
   }
   public 

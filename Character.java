@@ -18,7 +18,10 @@ public class Character {
   }
   public String toString();
   {
-    String.format()
+    System.out.print("Player Characters");
+    System.out.format("\n%15s%15s%15s%15s%15s%25s\n","Name", "Gender", "Hit Points",
+                      "Class","Equipable Gear");
+    
   }
   
   

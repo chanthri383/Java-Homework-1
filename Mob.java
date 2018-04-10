@@ -18,7 +18,7 @@ import "Npc.java";
   public String toString() 
   { 
      System.out.print("\n\nNPC's - Mobs");
-     System.out.format(super.toString() + "\n%15s%15s%15s%25s%15s%15s\n", "Name", "Gender", "Hit Points","Zone","Class","Quest Mob");
+     System.out.print(super.toString() + System.out.format ("\n%15s%15s%15s%25s%15s%15s\n", "Name", "Gender", "Hit Points","Zone","Class","Quest Mob");
   }
      
     

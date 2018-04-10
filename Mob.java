@@ -15,4 +15,7 @@ import "Npc.java";
     classType = classType_;
     questMob = questMob_;
   }
+  public String toString() 
+  {
+   
 

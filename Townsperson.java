@@ -18,3 +18,5 @@ public class player extends character {
   {
     System.out.print("\n\nNPC's - Towns People");
     System.out.print(super.toString() + System.out.format(("\n%15s%15s%15s%25s%15s\n", "Name", "Gender", "Hit Points","Zone","Has Quest?");
+                                                          }
+                                                          }

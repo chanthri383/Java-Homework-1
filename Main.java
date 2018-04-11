@@ -24,12 +24,13 @@ public class Main {
           character = player;
        }
        else if (type.equals ("Mob")) {
-          character.Name = input.next;
-          character.gender = input.nextChar;
-          character.hitPoints = input.nextInt;
-          character.zone = input.next;
-          character.class = input.next;
+          String name = input.next;
+          char gender = input.nextChar;
+          int hitPoints = input.nextInt;
+          String zone = input.next;
+          Player class = input.next;
           character.questMob = input.next;
+          character = mob;
         else if (type.equals ("Townsperson")){
           character.Name = input.next;
           character.gender = input.nextChar;

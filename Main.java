@@ -29,7 +29,8 @@ public class Main {
           int hitPoints = input.nextInt;
           String zone = input.next;
           Player class = input.next;
-          boolean questMob = input.next;
+          String rawBool = input.next;
+          boolean questMob = ((rawBool.isEqual("true")) ? true : false);
           character = mob;
         else if (type.equals ("Townsperson")){
           character.Name = input.next;

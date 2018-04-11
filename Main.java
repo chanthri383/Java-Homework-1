@@ -11,7 +11,7 @@ public class Main {
       
      Character characters[characterCount];
       
-     for (int i = 0; i < 4; i++) {
+     for (int i = 0; i < characterCount; i++) {
        Character character = new Character();
        String type = input.next;
        
@@ -40,5 +40,10 @@ public class Main {
           boolean questMob = ((rawBool.isEqual("true")) ? true : false);
         }
          characters [i] = character;
+         
+         for(int i = 0; i < characterCount; i++)
+         {
+            System.out.println(characters[i].toString());
+         }
        }
      }

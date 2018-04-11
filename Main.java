@@ -1,4 +1,11 @@
 import java.util.Scanner;
+import java.util.Scanner;
+import "Character".java;
+import "Player".java;
+import "Npc".java;
+import "Player".java;
+import "Mob".java;
+import "Townsperson".java;
 
 public class Main {
   

@@ -16,19 +16,24 @@ public class Main {
        String type = input.next;
        
        if (type.equals("Player) {
-          Character.Name = input.next;
-          Character.gender = input.nextChar;
-          Character.hitPoints = input.nextInt;
-          Character.gear = input.nextLine            
+          character.Name = input.next;
+          character.gender = input.nextChar;
+          character.hitPoints = input.nextInt;
+          character.gear = input.nextLine            
        }
        else if (type.equals ("Mob")) {
-          Character.Name = input.next;
-          Character.gender = input.nextChar;
-          Character.hitPoints = input.nextInt;
-          Character.zone = input.next;
-          Character.class = next;
-          Character.questMob = next;
+          character.Name = input.next;
+          character.gender = input.nextChar;
+          character.hitPoints = input.nextInt;
+          character.zone = input.next;
+          character.class = next;
+          character.questMob = next;
         else if (type.equals ("Townsperson")){
+          character.Name = input.next;
+          character.gender = input.nextChar;
+          character.hitPoints = input.nextInt;
+          character.zone = input.next;
+          character.questMob = next;
         }
        }
      }

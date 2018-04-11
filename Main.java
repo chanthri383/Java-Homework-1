@@ -33,11 +33,11 @@ public class Main {
           boolean questMob = ((rawBool.isEqual("true")) ? true : false);
           character = mob;
         else if (type.equals ("Townsperson")){
-          character.Name = input.next;
-          character.gender = input.nextChar;
-          character.hitPoints = input.nextInt;
-          character.zone = input.next;
-          character.questMob = input.next;
+          String Name = input.next;
+          char gender = input.nextChar;
+          int hitPoints = input.nextInt;
+          String zone = input.next;
+          boolean questMob = ((rawBool.isEqual("true")) ? true : false);
         }
          characters [i] = character;
        }

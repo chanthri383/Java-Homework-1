@@ -16,10 +16,12 @@ public class Main {
        String type = input.next;
        
        if (type.equals("Player) {
-          character.Name = input.next;
-          character.gender = input.nextChar;
-          character.hitPoints = input.nextInt;
-          character.gear = input.nextLine            
+          String name = input.next;
+          char gender = input.nextChar;
+          int hitPoints = input.nextInt;
+          String gear = input.nextLine  
+          Player player (name, gender, hitPoints, gear);
+          character = player;
        }
        else if (type.equals ("Mob")) {
           character.Name = input.next;

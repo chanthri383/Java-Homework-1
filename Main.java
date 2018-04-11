@@ -20,11 +20,19 @@ public class Main {
           char gender = input.nextChar;
           int hitPoints = input.nextInt;
           String class = input.nextLine;
-          if( class == "Mage")
+            if( class == "Mage")
                        {
                          armorType == "Cloth";
                        }
-          Player player (name, gender, hitPoints, gear);
+                 else if(class == "Rogue")
+                       {
+                         armorType = "Leather";
+                       }
+                 else if(class == "Warrior")
+                       {  
+                         armorType = "Platemail";
+                       }
+          Player player (name, gender, hitPoints, armorType);
           character = player;
        }
        else if (type.equals ("Mob")) {

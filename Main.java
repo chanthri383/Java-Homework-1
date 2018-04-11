@@ -14,9 +14,8 @@ public class Main {
      Scanner input = new Scanner(System.in);
      System.out.print("Enter text: ");
      int characterCount = input.nextint();
-    
-      
-     Character characters[characterCount];
+   
+     Character[] characters = new Character[characterCount];
       
      for (int i = 0; i < characterCount; i++) {
        Character character = new Character();

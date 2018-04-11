@@ -29,7 +29,7 @@ public class Main {
           int hitPoints = input.nextInt;
           String zone = input.next;
           Player class = input.next;
-          character.questMob = input.next;
+          boolean questMob = input.next;
           character = mob;
         else if (type.equals ("Townsperson")){
           character.Name = input.next;

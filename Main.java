@@ -19,7 +19,11 @@ public class Main {
           String name = input.next;
           char gender = input.nextChar;
           int hitPoints = input.nextInt;
-          String gear = input.nextLine  
+          String class = input.nextLine;
+          if( class == "Mage")
+                       {
+                         armorType == "Cloth";
+                       }
           Player player (name, gender, hitPoints, gear);
           character = player;
        }

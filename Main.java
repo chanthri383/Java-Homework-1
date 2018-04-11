@@ -12,7 +12,7 @@ public class Main {
      Character characters[characterCount];
       
      for (int i = 0; i < 4; i++) {
-       Character character;
+       Character character = new Character();
        String type = input.next;
        
        if (type.equals("Player) {
@@ -35,5 +35,6 @@ public class Main {
           character.zone = input.next;
           character.questMob = input.next;
         }
+         characters [i] = character;
        }
      }

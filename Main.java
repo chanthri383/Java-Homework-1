@@ -26,14 +26,14 @@ public class Main {
           character.gender = input.nextChar;
           character.hitPoints = input.nextInt;
           character.zone = input.next;
-          character.class = next;
-          character.questMob = next;
+          character.class = input.next;
+          character.questMob = input.next;
         else if (type.equals ("Townsperson")){
           character.Name = input.next;
           character.gender = input.nextChar;
           character.hitPoints = input.nextInt;
           character.zone = input.next;
-          character.questMob = next;
+          character.questMob = input.next;
         }
        }
      }

@@ -10,3 +10,11 @@ public class Main {
     
       
      Character characters[characterCount];
+      
+     for (int i = 0; i < 4; i++) {
+       Character character;
+       Character.Name = input.next;
+       Character.gender = input.nextChar;
+       Character.hitPoints = input.nextInt;
+       Character.gear = input.nextLine
+     }

@@ -21,7 +21,7 @@ public class Character {
     String text = "";
     
     System.out.print("Player Characters");
-    text = System.out.format("\n%15s%15s%15s%25s\n","Name", "Gender", "Hit Points");
+    text = toString(System.out.format("\n%15s%15s%15s%25s\n","Name", "Gender", "Hit Points"));
                       
     return text;
   }
